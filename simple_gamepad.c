@@ -68,7 +68,8 @@ int main(void)
     for (;;)
     {
         simple_gampad_read_buttons();
-        usb_simple_gamepad_send();
+        usb_simple_gamepad_send(1); // Send controller 1 info
+        usb_simple_gamepad_send(2); // Send controller 2 info
     }
 }
 

@@ -45,11 +45,12 @@
 #include <avr/interrupt.h>
 
 
-// Mac OS-X and Linux automatically load the correct drivers.  On
-// Windows, even though the driver is supplied by Microsoft, an
-// INF file is needed to load the driver.  These numbers need to
-// match the INF file.
-#define VENDOR_ID   0x16C0
+// We use a VENDOR_ID and DEVICE_ID from a device that has
+// HID_QUIRK_MULTI_INPUT defined in HID driver for linux.
+// This is needed for Linux to see 2 controllers from the
+// USB composite HID device
+#define VENDOR_ID   0x8282 //USB_VENDOR_ID_MOJO
+#define PRODUCT_ID  0x3201 //USB_DEVICE_ID_RETRO_ADAPTER
 
 
 // USB devices are supposed to implment a halt feature, which is
