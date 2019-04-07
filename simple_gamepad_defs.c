@@ -69,47 +69,47 @@ gamepad_state g_gamepad2State;
 #define INDEX_F     4
 
 // Button Mappings
-#define BUTTON_UP_INDEX     INDEX_B
-#define BUTTON_UP_SHIFT     0 // B0
-#define BUTTON_DOWN_INDEX   INDEX_B
-#define BUTTON_DOWN_SHIFT   1 // B1
-#define BUTTON_LEFT_INDEX   INDEX_B
-#define BUTTON_LEFT_SHIFT   2 // B2
-#define BUTTON_RIGHT_INDEX  INDEX_B
-#define BUTTON_RIGHT_SHIFT  3 // B3
-#define BUTTON_1_INDEX      INDEX_B
-#define BUTTON_1_SHIFT      7 // B7
-#define BUTTON_2_INDEX      INDEX_D
-#define BUTTON_2_SHIFT      0 // D0
-#define BUTTON_3_INDEX      INDEX_D
-#define BUTTON_3_SHIFT      1 // D1
-#define BUTTON_4_INDEX      INDEX_D
-#define BUTTON_4_SHIFT      2 // D2
-#define BUTTON_5_INDEX      INDEX_D
-#define BUTTON_5_SHIFT      3 // D3
-#define BUTTON_6_INDEX      INDEX_C
-#define BUTTON_6_SHIFT      6 // C6
+#define BUTTON_UP_INDEX     INDEX_C
+#define BUTTON_UP_SHIFT     6 // C6
+#define BUTTON_DOWN_INDEX   INDEX_D
+#define BUTTON_DOWN_SHIFT   3 // D3
+#define BUTTON_LEFT_INDEX   INDEX_D
+#define BUTTON_LEFT_SHIFT   2 // D2
+#define BUTTON_RIGHT_INDEX  INDEX_D
+#define BUTTON_RIGHT_SHIFT  1 // D1
+#define BUTTON_1_INDEX      INDEX_D
+#define BUTTON_1_SHIFT      0 // D0
+#define BUTTON_2_INDEX      INDEX_B
+#define BUTTON_2_SHIFT      7 // B7
+#define BUTTON_3_INDEX      INDEX_B
+#define BUTTON_3_SHIFT      3 // B3
+#define BUTTON_4_INDEX      INDEX_B
+#define BUTTON_4_SHIFT      2 // B2
+#define BUTTON_5_INDEX      INDEX_B
+#define BUTTON_5_SHIFT      0 // B0
+#define BUTTON_6_INDEX      INDEX_B
+#define BUTTON_6_SHIFT      1 // B1
 
-#define BUTTON_UP_P2_INDEX    INDEX_D
-#define BUTTON_UP_P2_SHIFT    7 // D7
-#define BUTTON_DOWN_P2_INDEX  INDEX_B
-#define BUTTON_DOWN_P2_SHIFT  4 // B4
-#define BUTTON_LEFT_P2_INDEX  INDEX_B
-#define BUTTON_LEFT_P2_SHIFT  5 // B5
-#define BUTTON_RIGHT_P2_INDEX INDEX_B
-#define BUTTON_RIGHT_P2_SHIFT 6 // B6
+#define BUTTON_UP_P2_INDEX    INDEX_F
+#define BUTTON_UP_P2_SHIFT    0 // F0
+#define BUTTON_DOWN_P2_INDEX  INDEX_F
+#define BUTTON_DOWN_P2_SHIFT  1 // F1
+#define BUTTON_LEFT_P2_INDEX  INDEX_F
+#define BUTTON_LEFT_P2_SHIFT  4 // F4
+#define BUTTON_RIGHT_P2_INDEX INDEX_F
+#define BUTTON_RIGHT_P2_SHIFT 5 // F5
 #define BUTTON_1_P2_INDEX     INDEX_F
-#define BUTTON_1_P2_SHIFT     7 // F7
+#define BUTTON_1_P2_SHIFT     6 // F6
 #define BUTTON_2_P2_INDEX     INDEX_F
-#define BUTTON_2_P2_SHIFT     6 // F6
-#define BUTTON_3_P2_INDEX     INDEX_F
-#define BUTTON_3_P2_SHIFT     5 // F5
-#define BUTTON_4_P2_INDEX     INDEX_F
-#define BUTTON_4_P2_SHIFT     4 // F4
-#define BUTTON_5_P2_INDEX     INDEX_F
-#define BUTTON_5_P2_SHIFT     1 // F1
-#define BUTTON_6_P2_INDEX     INDEX_F
-#define BUTTON_6_P2_SHIFT     0 // F0
+#define BUTTON_2_P2_SHIFT     7 // F7
+#define BUTTON_3_P2_INDEX     INDEX_B
+#define BUTTON_3_P2_SHIFT     6 // B6
+#define BUTTON_4_P2_INDEX     INDEX_B
+#define BUTTON_4_P2_SHIFT     5 // B5
+#define BUTTON_5_P2_INDEX     INDEX_D
+#define BUTTON_5_P2_SHIFT     7 // D7
+#define BUTTON_6_P2_INDEX     INDEX_B
+#define BUTTON_6_P2_SHIFT     4 // B4
 
 // ease of use macros for passing shift/index to functions
 #define BUTTON_UP       BUTTON_UP_INDEX, BUTTON_UP_SHIFT
